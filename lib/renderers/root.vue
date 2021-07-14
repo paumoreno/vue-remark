@@ -1,17 +1,19 @@
 <template>
-  <fragment>
+  <div v-frag>
     <slot></slot>
-  </fragment>
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
-import { Fragment } from 'vue-fragment'
+import frag from 'vue-frag';
 
 @Component({
   name: "vue-remark-root",
-  components: {Fragment}
+  directives: {
+        frag
+    },
 })
 export default class VueRemarkRoot extends Vue {}
 </script>
