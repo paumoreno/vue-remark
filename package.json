@@ -84,8 +84,7 @@
     "remark-gfm": "~1.0.0",
     "remark-parse": "~9.0.0",
     "unified": "~9.2.1",
-    "vue-class-component": "~7.2.6",
-    "vue-frag": "^1.1.5"
+    "vue-class-component": "~7.2.6"
   },
   "devDependencies": {
     "@types/jest": "~26.0.22",
